@@ -15,7 +15,6 @@ const ContactSection: React.FC = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          action="/thank-you"
           netlify-honeypot="bot-field"
           className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg"
         >
