@@ -4,8 +4,12 @@ function Hero() {
   return (
     <section
       id="inicio"
-      className="h-screen bg-cover bg-center flex flex-col justify-center items-center"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      className="h-screen min-h-screen bg-cover bg-center flex flex-col justify-center items-center"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover', // Hace que la imagen cubra el área sin deformarse
+        backgroundPosition: 'center center', // Asegura que la imagen esté centrada
+      }}
     >
       {/* Texto adaptado para diferentes tamaños de dispositivos */}
       <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white text-center px-4">
