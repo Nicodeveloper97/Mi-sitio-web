@@ -1,5 +1,5 @@
 import yo from "../assets/yop.jpeg";
-
+import Cv from "../assets/Nico cv.pdf"
 const AboutMe = () => {
   return (
     <section className="bg-gray-900 min-h-screen flex items-center justify-center font-poppins" id="SobreMi">
@@ -33,7 +33,7 @@ const AboutMe = () => {
           {/* Botón de descarga de CV centrado */}
           <div className="flex justify-center">
             <a
-              href="/path-to-your-cv.pdf" // Ruta del CV
+              href= {Cv} // Ruta del CV
               download="Nico-CV.pdf"
               className="inline-block bg-gradient-to-r w-60 text-center from-pink-500 via-red-500 to-yellow-500 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-pink-600 hover:via-red-600 hover:to-yellow-600"
               >

@@ -26,17 +26,17 @@ function Navbar() {
             <span>Experiencia</span>
             <span className="absolute left-0 bottom-0 h-[2px] w-full bg-gradient-to-r from-purple-500 to-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
-          <a href="#tecnologia" className="text-white relative group flex items-center space-x-2 text-lg font-medium whitespace-nowrap">
+          <a href="#Tecnologia" className="text-white relative group flex items-center space-x-2 text-lg font-medium whitespace-nowrap">
             <FontAwesomeIcon icon={faLaptopCode} />
             <span>Tecnologías</span>
             <span className="absolute left-0 bottom-0 h-[2px] w-full bg-gradient-to-r from-purple-500 to-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
-          <a href="#proyectos" className="text-white relative group flex items-center space-x-2 text-lg font-medium whitespace-nowrap">
+          <a href="#Proyecto" className="text-white relative group flex items-center space-x-2 text-lg font-medium whitespace-nowrap">
             <FontAwesomeIcon icon={faProjectDiagram} />
             <span>Proyectos</span>
             <span className="absolute left-0 bottom-0 h-[2px] w-full bg-gradient-to-r from-purple-500 to-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
-          <a href="#contacto" className="text-white relative group flex items-center space-x-2 text-lg font-medium whitespace-nowrap">
+          <a href="#Contacto" className="text-white relative group flex items-center space-x-2 text-lg font-medium whitespace-nowrap">
             <FontAwesomeIcon icon={faEnvelope} />
             <span>Contacto</span>
             <span className="absolute left-0 bottom-0 h-[2px] w-full bg-gradient-to-r from-purple-500 to-blue-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
@@ -66,23 +66,23 @@ function Navbar() {
           <FontAwesomeIcon icon={faHome} />
           <span>Inicio</span>
         </a>
-        <a href="#sobre-mi" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
+        <a href="#SobreMi" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
           <FontAwesomeIcon icon={faUser} />
           <span>Sobre Mí</span>
         </a>
-        <a href="#experiencia" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
+        <a href="#Experiencia" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
           <FontAwesomeIcon icon={faBriefcase} />
           <span>Experiencia</span>
         </a>
-        <a href="#tecnologias" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
+        <a href="#Tecnologia" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
           <FontAwesomeIcon icon={faLaptopCode} />
           <span>Tecnologías</span>
         </a>
-        <a href="#proyectos" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
+        <a href="#Proyecto" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
           <FontAwesomeIcon icon={faProjectDiagram} />
           <span>Proyectos</span>
         </a>
-        <a href="#contacto" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
+        <a href="#Contacto" onClick={() => setMenuOpen(false)} className="block text-white text-lg flex items-center space-x-3 py-3 px-4 hover:bg-gray-700 rounded-lg transition-all duration-300">
           <FontAwesomeIcon icon={faEnvelope} />
           <span>Contacto</span>
         </a>

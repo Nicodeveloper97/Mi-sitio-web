@@ -5,13 +5,28 @@ const ContactSection: React.FC = () => {
   return (
     <section className="w-full py-20 bg-gray-900 text-white" id="Contacto">
       <div className="container mx-auto px-4">
-        {/* Título de la sección "Contacto" */}
         <h2 className="text-3xl font-bold text-white mb-12 relative inline-block text-center w-full">
           Contacto
           <span className="absolute left-1/4 bottom-[-10px] w-1/2 h-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></span>
         </h2>
 
-        <form className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg">
+        {/* Formulario con atributos de Netlify */}
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          action="/thank-you"
+          netlify-honeypot="bot-field"
+          className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg"
+        >
+          {/* Campo oculto para Netlify */}
+          <input type="hidden" name="form-name" value="contact" />
+          <div className="hidden">
+            <label>
+              Don’t fill this out: <input name="bot-field" />
+            </label>
+          </div>
+
           {/* Nombre y apellido */}
           <div className="mb-6">
             <label className="block text-lg font-semibold mb-2" htmlFor="name">
@@ -22,6 +37,7 @@ const ContactSection: React.FC = () => {
               <input
                 type="text"
                 id="name"
+                name="name"
                 className="w-full pl-10 p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                 placeholder="Ingresa tu nombre completo"
               />
@@ -38,6 +54,7 @@ const ContactSection: React.FC = () => {
               <input
                 type="tel"
                 id="phone"
+                name="phone"
                 className="w-full pl-10 p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                 placeholder="Ingresa tu número de celular"
               />
@@ -54,6 +71,7 @@ const ContactSection: React.FC = () => {
               <input
                 type="email"
                 id="email"
+                name="email"
                 className="w-full pl-10 p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                 placeholder="Ingresa tu correo electrónico"
               />
@@ -69,6 +87,7 @@ const ContactSection: React.FC = () => {
               <FaCommentDots className="absolute top-3 left-3 text-gray-400" />
               <textarea
                 id="message"
+                name="message"
                 className="w-full pl-10 p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                 placeholder="Escribe tu consulta"
                 rows={4}

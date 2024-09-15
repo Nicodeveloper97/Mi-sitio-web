@@ -1,4 +1,4 @@
-import backgroundImage from "../assets/futuristic-home-8397004_1280.webp";
+import backgroundImage from "../assets/fondo5.jpg";
 
 function Hero() {
   return (

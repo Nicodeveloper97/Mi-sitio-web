@@ -21,7 +21,7 @@ const Experience = () => {
           </p>
 
           {/* Botón para ver proyectos */}
-          <a href="https://tu-portfolio.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Nicodeveloper97" target="_blank" rel="noopener noreferrer">
             <button className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white py-2 px-6 rounded-md hover:scale-105 transition-transform duration-300">
               Ver proyectos
             </button>
