@@ -11,7 +11,13 @@ const ContactSection: React.FC = () => {
         </h2>
 
         {/* Formulario con atributos de Netlify */}
-        <form name="contact" action="/thank-you" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg">
+        <form 
+          name="contact" 
+          method="POST" 
+          data-netlify="true" 
+          netlify-honeypot="bot-field" 
+          className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg"
+        >
 
           {/* Campo oculto para Netlify */}
           <input type="hidden" name="form-name" value="contact" />
