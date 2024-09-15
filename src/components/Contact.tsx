@@ -18,13 +18,10 @@ const ContactSection: React.FC = () => {
           netlify-honeypot="bot-field" 
           className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg"
         >
-
           {/* Campo oculto para Netlify */}
           <input type="hidden" name="form-name" value="contact" />
           <div className="hidden">
-            <label>
-              Don’t fill this out: <input name="bot-field" />
-            </label>
+            <label>Don’t fill this out: <input name="bot-field" /></label>
           </div>
 
           {/* Nombre y apellido */}
