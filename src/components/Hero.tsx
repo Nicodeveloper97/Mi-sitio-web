@@ -1,4 +1,4 @@
-import backgroundImage from "../assets/fondo5.jpg";
+import backgroundImage from "../assets/diseno-habitaciones-interiores-cautivadores-explorando-habitaciones-modernas-infusion-neon-arte-vr_962894-1445.jpg";
 
 function Hero() {
   return (

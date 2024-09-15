@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { gsap } from "gsap";
 
 const Footer: React.FC = () => {
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
           <p className="text-gray-400 mt-2 text-sm">Full Stack Developer | Innovator</p>
         </div>
 
-        {/* Sección de iconos de LinkedIn y GitHub */}
+        {/* Sección de iconos de LinkedIn, GitHub y Gmail */}
         <div className="footer-icons flex space-x-6">
           <a
             href="https://www.linkedin.com/in/nicolasiglesias97"
@@ -49,6 +49,12 @@ const Footer: React.FC = () => {
             className="text-white text-3xl hover:text-gray-300 transition-colors duration-300"
           >
             <FaGithub />
+          </a>
+          <a
+            href="mailto:nicoiglesiasdeveloper@gmail.com"
+            className="text-white text-3xl hover:text-gray-300 transition-colors duration-300"
+          >
+            <FaEnvelope />
           </a>
         </div>
       </div>
